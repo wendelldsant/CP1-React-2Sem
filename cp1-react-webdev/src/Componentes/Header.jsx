@@ -4,7 +4,7 @@ function Header() {
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li>Sobre</li>
+                    <li>Sobre Nós</li>
                     <li>Contato</li>
                 </ul>
             </nav>
@@ -12,4 +12,4 @@ function Header() {
      );
 }
 
-export default Header;  
+export default Header;

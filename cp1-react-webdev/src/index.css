@@ -16,7 +16,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  font-size: 2rem;
 }
 
 nav ul {
@@ -35,7 +35,11 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
   text-decoration: underline;
 }
 
+.textoMainHome{
+  display: flex;
+  justify-content: space-evenly;
+}
