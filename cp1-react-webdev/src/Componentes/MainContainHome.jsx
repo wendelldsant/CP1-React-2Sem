@@ -1,6 +1,6 @@
 import heroImage from "../images/hero-image.png";
 
-function MainContain() {
+function MainContainHome() {
     return ( 
         <main>
             <section class="textoMainHome">
@@ -17,4 +17,4 @@ function MainContain() {
      );
 }
 
-export default MainContain;
+export default MainContainHome;
