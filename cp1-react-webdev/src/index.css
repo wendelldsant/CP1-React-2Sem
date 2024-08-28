@@ -86,7 +86,6 @@ nav ul li a:hover {
 .box{
   border-radius: 16px;
   min-height: 326px;
-  background-color: blue;
   padding: 16px 34px 16px 34px;
   display: flex;
   flex-direction: column;
