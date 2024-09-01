@@ -6,13 +6,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-white: #fff;
+  --color-dark-gray: #333333;
+  --color-blue: #2980b9;
+}
+
 html{
   font-size: 62.5%;
 }
 
+body{
+  color: var(--color-dark-gray);
+  font-size: 1.6rem;
+  font-family: Roboto Mono;
+}
+
 header{
-  background-color: #2980b9; 
-  color: white;
+  background-color: var(--color-blue); 
+  color: var(--color-white);
   padding: 20px;
   height: 50px;
   display: flex;
@@ -29,11 +41,10 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
-
 }
 
 nav ul li a {
-  color: white;
+  color: var(--color-white);
   text-decoration: none;
 }
 
@@ -41,8 +52,62 @@ nav ul li:hover {
   text-decoration: underline;
 }
 
-.textoMainHome{
+.homeMain{
   display: flex;
-  justify-content: space-evenly;
-  font-family: Roboto Mono;
+  align-items: center;
+  padding: 10px;
+
+  & h1 {
+    font-size: 7rem;
+  }
+
+  & p {
+    font-size: 3rem;
+  }
+}
+
+.StandardButton {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  padding: 12px 40px;
+  border-radius: 50px ;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.StandardButton:hover {
+  background-color: var(--color-white);
+  color: var(--color-dark-gray);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px;
+
+  & h2 {
+    color: var(--color-white);
+    font-size: 7rem;
+  }
+
+  & h3 {
+    font-size: 2.5rem;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  & img {
+    object-fit: contain;
+  }
 }
