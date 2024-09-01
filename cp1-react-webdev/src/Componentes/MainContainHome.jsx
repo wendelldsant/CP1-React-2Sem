@@ -5,13 +5,13 @@ import Rodape1 from './Rodape1';
 function MainContainHome() {
     return (
         <main>
-            <section className="homeMain">
-                <div>
+            <section className="homeOutlet">
+                <div className="texto">
                     <h1>Crie seus vídeos online</h1>
                     <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
                     <button type="button" className="StandardButton">Começar agora</button>
                 </div>
-                <div>
+                <div className="Imagens">
                     <img src={heroImage} alt="Imagem de Homem Saltando" />
                 </div>
             </section>
