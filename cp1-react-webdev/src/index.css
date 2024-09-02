@@ -56,8 +56,9 @@ nav ul li:hover {
 
 .homeOutlet{
   display: flex;
-  align-items: center;
+  align-items: top;
   padding: 10px;
+  padding-top: 30px;
 
   & h1 {
     font-size: 7rem;
@@ -123,6 +124,7 @@ nav ul li:hover {
 
 .texto {
   align-items: start;
+  max-width: 49%;
 }
 
 .tituloPlanos {
@@ -201,6 +203,10 @@ nav ul li:hover {
   padding: 10px;
 }
 
+.planoBotao:hover {
+  cursor: pointer;
+}
+
 .imagemPlano {
   align-self: center;
 }
@@ -208,4 +214,49 @@ nav ul li:hover {
 .planosInfos {
   display: flex;
   flex-direction: column;
+}
+
+.line {
+  width: 1px;
+  height: 100vh;
+  background-color: var(--color-dark-gray);
+  margin: 2rem;
+}
+
+.input {
+  border: 1px solid var(--color-light-gray);
+  border-radius: 50px;
+  width: 100%;
+}
+
+.formulario {
+  width: 100%;
+  align-self: center;
+  padding: 70px;
+}
+
+.formularioUnico1 {
+  display: flex;
+  align-items: center;
+}
+
+.formularioUnico2 {
+  .input {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.icones {
+  padding-top: 20px;
+}
+
+.ContactButton {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none;
+  margin: 40px 70px 0px 80%;
 }
