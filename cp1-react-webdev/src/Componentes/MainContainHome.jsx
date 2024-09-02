@@ -1,20 +1,25 @@
-import heroImage from "../images/hero-image.png";
+import React from 'react';
+import heroImage from '../assets/hero-image.png';
+import Rodape1 from './Rodape1';
 
 function MainContainHome() {
-    return ( 
+    return (
         <main>
-            <section class="textoMainHome">
-                <div>
+            <section className="homeOutlet">
+                <div className="texto">
                     <h1>Crie seus vídeos online</h1>
                     <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
-                    <button class = "StandardButton">Começar agora</button>
+                    <button type="button" className="StandardButton">Começar agora</button>
                 </div>
-                <div>
+                <div className="Imagens">
                     <img src={heroImage} alt="Imagem de Homem Saltando" />
                 </div>
             </section>
+            <section className="cardsMain">
+                <Rodape1 />
+            </section>
         </main>
-     );
+    );
 }
 
 export default MainContainHome;
