@@ -4,7 +4,7 @@ import Card from './Card';
 import IconeYoutube from "../assets/icones/iconeYoutube.png";
 import IconeTiktok from "../assets/icones/iconeTiktok.png";
 import IconeFacebook from "../assets/icones/iconeFacebook.png";
-import IconeInstagram from "../assets/icones/iconeInstagram2.png";
+import IconeInstagram from "../assets/icones/IconeInstagram2.png";
 
 const listaCards = [
     {
