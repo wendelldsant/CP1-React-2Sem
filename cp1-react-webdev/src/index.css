@@ -8,6 +8,7 @@
 
 :root {
   --color-white: #fff;
+  --color-black: black;
   --color-dark-gray: #333333;
   --color-blue: #2980b9;
   --color-cream: #f4f2f2;
@@ -25,8 +26,6 @@ body{
 }
 
 header{
-  background-color: var(--color-blue); 
-  color: var(--color-white);
   padding: 20px;
   height: 50px;
   display: flex;
@@ -46,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--color-white);
+  color: var(--color-black);
   text-decoration: none;
 }
 
@@ -84,6 +83,7 @@ nav ul li:hover {
 }
 
 .cards {
+  margin: 0 4rem;
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 1fr));
   gap: 16px;
